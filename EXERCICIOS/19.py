@@ -15,13 +15,13 @@ def classificar_idade(idade):
 while True:
     idade = int(input("Digite a idade do nadador: "))
     
-    definitiva = classificar_idade(idade)
     
-    if definitiva is None:
+    
+    if classificar_idade(idade) is None:
         print("Idade invalida, digite a idade novamente!")
     else:
         break
 
-print(f"Sua classificaça é: {definitiva}")
+print(f"Sua classificaça é: {classificar_idade(idade)}")
                 
     
